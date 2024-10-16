@@ -14,7 +14,7 @@
                 StrokeShape="RoundRectangle 10,10,0,0"
                 HorizontalOptions="Center"
                 >
-                <Frame>
+                
                     <VerticalStackLayout Padding="30,0" Spacing="25">
                         <Button Text="Botón1" MaximumHeightRequest="200" MaximumWidthRequest="95" BorderWidth="4" Padding="5" BorderColor="Black"></Button>
                         <Button Text="Botón2" MaximumHeightRequest="200" MaximumWidthRequest="95"></Button>
@@ -27,7 +27,7 @@
                     </VerticalStackLayout>
 
 
-                </Frame>
+                
             </Border>
             
             
