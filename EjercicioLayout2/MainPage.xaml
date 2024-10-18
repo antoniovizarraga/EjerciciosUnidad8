@@ -5,7 +5,36 @@
 
     <ScrollView>
         <FlexLayout Direction="Column">
+
             
+            <Label
+               FontSize="18"
+               BackgroundColor="Aqua" />
+
+            
+            <FlexLayout FlexLayout.Grow="1">
+
+                
+                <Label
+                   FontSize="18"
+                   BackgroundColor="Gray"
+                   FlexLayout.Grow="1" />
+
+                
+                <BoxView FlexLayout.Basis="50"
+                     FlexLayout.Order="-1"
+                     Color="Blue" />
+
+                
+                <BoxView FlexLayout.Basis="50"
+                     Color="Green" />
+
+            </FlexLayout>
+
+            
+            <Label
+               FontSize="18"
+               BackgroundColor="Pink" />
         </FlexLayout>
     </ScrollView>
 

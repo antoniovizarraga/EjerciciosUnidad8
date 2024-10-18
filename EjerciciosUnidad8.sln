@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLayout1", "EjercicioLayout1\EjercicioLayout1.csproj", "{1729CBA4-0BD5-43A3-BB1F-D698DA82A304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioLayout1", "EjercicioLayout1\EjercicioLayout1.csproj", "{1729CBA4-0BD5-43A3-BB1F-D698DA82A304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLayout2", "EjercicioLayout2\EjercicioLayout2.csproj", "{174A306A-EDA3-47B8-A083-7C192DF0204F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioLayout2", "EjercicioLayout2\EjercicioLayout2.csproj", "{174A306A-EDA3-47B8-A083-7C192DF0204F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioL3", "EjercicioL3\EjercicioL3.csproj", "{095725EB-8973-457C-ADC5-19C91E0D8439}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,12 @@ Global
 		{174A306A-EDA3-47B8-A083-7C192DF0204F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{174A306A-EDA3-47B8-A083-7C192DF0204F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{174A306A-EDA3-47B8-A083-7C192DF0204F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{095725EB-8973-457C-ADC5-19C91E0D8439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095725EB-8973-457C-ADC5-19C91E0D8439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095725EB-8973-457C-ADC5-19C91E0D8439}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{095725EB-8973-457C-ADC5-19C91E0D8439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095725EB-8973-457C-ADC5-19C91E0D8439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095725EB-8973-457C-ADC5-19C91E0D8439}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
