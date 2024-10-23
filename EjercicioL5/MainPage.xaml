@@ -16,30 +16,40 @@
                 </ListView.Header>
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Nombre}" />
+                        <ViewCell>
+                            <HorizontalStackLayout Spacing="4">
+                                <Label Text="{Binding Nombre}"></Label>
+                                
+                                <Label Text="{Binding Apellido}"></Label>
+                            </HorizontalStackLayout>
+                        </ViewCell>
+                        
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
 
-            
+            <AbsoluteLayout>
+
+                <ImageButton
+BackgroundColor="Gray"
+CornerRadius="20"
+HorizontalOptions="End"
+VerticalOptions="End"
+AbsoluteLayout.LayoutFlags="PositionProportional"
+AbsoluteLayout.LayoutBounds=".95, .95, 80, 80">
+                    <ImageButton.Source>
+                        <FontImageSource
+        FontFamily="FASolid"
+        Glyph="&#x2b;" />
+                    </ImageButton.Source>
+                </ImageButton>
+
+
+            </AbsoluteLayout>
+
         </VerticalStackLayout>
 
-        <Grid>
-
-            <ImageButton
-    BackgroundColor="Gray"
-    CornerRadius="20"
-    HorizontalOptions="End"
-    VerticalOptions="End">
-                <ImageButton.Source>
-                    <FontImageSource
-            FontFamily="FASolid"
-            Glyph="&#x2b;" />
-                </ImageButton.Source>
-            </ImageButton>
-
-
-        </Grid>
+        
 
     </ScrollView>
     

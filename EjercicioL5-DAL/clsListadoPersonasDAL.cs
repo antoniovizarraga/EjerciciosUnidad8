@@ -13,9 +13,17 @@ namespace EjercicioL5_DAL
         public static List<clsPersona> GetListadoPersonas()
         {
             List<clsPersona> listaPersonas = [
-                new clsPersona("Paco", "Martínez"),
-                new clsPersona("Alex", "Hernández"),
-                new clsPersona("Alejandro", "Gómez")
+                 new clsPersona("Paco", "Martínez"),
+                 new clsPersona("Alex", "Hernández"),
+                 new clsPersona("Alejandro", "Gómez"),
+                 new clsPersona("Lucía", "Pérez"),
+                 new clsPersona("Juan", "Rodríguez"),
+                 new clsPersona("María", "López"),
+                 new clsPersona("Sofía", "García"),
+                 new clsPersona("Diego", "Sánchez"),
+                 new clsPersona("Valeria", "Torres"),
+                 new clsPersona("Carlos", "Ramírez")
+                 
                 ];
             return listaPersonas;
         }
