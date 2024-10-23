@@ -7,14 +7,42 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <ListView x:Name="FruitListView" ItemsSource="{Binding Fruits}">
+            <ListView x:Name="PersonasListView" ItemsSource="{Binding Personas}">
+                <ListView.Header>
+                    <HorizontalStackLayout Padding="30,0" Spacing="25">
+                        <Button Text="  Editar" VerticalOptions="Start" ImageSource="edit.png" ContentLayout="left, 0" />
+                        <Button Text="  Eliminar" VerticalOptions="Start" ImageSource="eraser.png" ContentLayout="left, 0" />
+                    </HorizontalStackLayout>
+                </ListView.Header>
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding FruitName}" />
+                        <TextCell Text="{Binding Nombre}" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
+            
         </VerticalStackLayout>
+
+        <Grid>
+
+            <ImageButton
+    BackgroundColor="Gray"
+    CornerRadius="20"
+    HorizontalOptions="End"
+    VerticalOptions="End">
+                <ImageButton.Source>
+                    <FontImageSource
+            FontFamily="FASolid"
+            Glyph="&#x2b;" />
+                </ImageButton.Source>
+            </ImageButton>
+
+
+        </Grid>
+
     </ScrollView>
+    
+    
 
 </ContentPage>

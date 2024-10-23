@@ -1,27 +1,23 @@
-﻿using System.Collections.ObjectModel;
+﻿using EjercicioL5_DAL;
+using EjercicioL5_ENT;
+using System.Collections.ObjectModel;
 
 namespace EjercicioL5
 {
     public partial class MainPage : ContentPage
     {
 
-        public class Fruit
-        {
-            public string FruitName { get; set; }
-        }
+       
 
-        ObservableCollection<Fruit> fruits = new ObservableCollection<Fruit>();
-        public ObservableCollection<Fruit> Fruits { get { return fruits; } }
+        ObservableCollection<clsPersona> personas = new ObservableCollection<clsPersona>(clsListadoPersonasDAL.GetListadoPersonas());
+        
+        public ObservableCollection<clsPersona> Personas { get { return personas; } }
 
         public MainPage()
         {
             InitializeComponent();
-            fruits.Add(new Fruit() { FruitName = "Apple" });
-            fruits.Add(new Fruit() { FruitName = "Orange" });
-            fruits.Add(new Fruit() { FruitName = "Banana" });
-            fruits.Add(new Fruit() { FruitName = "Grape" });
-            fruits.Add(new Fruit() { FruitName = "Mango" });
-            FruitListView.ItemsSource = fruits;
+            
+            PersonasListView.ItemsSource = personas;
         }
 
         

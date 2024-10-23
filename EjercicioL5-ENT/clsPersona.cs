@@ -3,12 +3,19 @@
     // All the code in this file is included in all platforms.
     public class clsPersona
     {
-        public String nombre {  get; set; }
+        public String Nombre {  get; set; }
 
-        public clsPersona(string Nombre) {
+        public String Apellido { get; set; }
+
+        public clsPersona(string Nombre, string Apellido) {
             if(!String.IsNullOrEmpty(Nombre))
             {
-                nombre = Nombre;
+                this.Nombre = Nombre;
+            }
+
+            if (!String.IsNullOrEmpty(Apellido))
+            {
+                this.Apellido = Apellido;
             }
         }
     }

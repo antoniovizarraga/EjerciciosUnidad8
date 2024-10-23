@@ -57,9 +57,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\edit.svg" />
+	  <None Remove="Resources\Images\eraser.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\EjercicioL5-DAL\EjercicioL5-DAL.csproj" />
+	  <ProjectReference Include="..\EjercicioL5-ENT\EjercicioL5-ENT.csproj" />
 	</ItemGroup>
 
 </Project>
